@@ -12,7 +12,7 @@ To make it easier, LibreOffice developed the [LibreOffice Documentation XHP Edit
 
 But there is a major problem with the editor - **it isn't Emacs**. I admit it, I'm a bit stuck in my ways. I have been using Emacs for 20 years, my fingers know how to make it do things. So the question I needed to answer was "can I recreate the LibreOffice Documentation XHP Editor in Emacs?"
 
-My initial investigation lead me to nXML mode, a major mode for editing XML in Emacs. It looked perfect since it supports real-time XML validation and XML completion. However, nXML needs a RELAX NG Compact Syntax (RNC) schema for the XML format to do its magic, and LibreOffice doesn't have one for XHP. Luckily they have a Document Type Definition (DTD). You can convert a DTD into an RNC schema with the `trang` tool.
+My initial investigation lead me to nXML mode, a major mode for editing XML in Emacs. It looked perfect since it supports real-time XML validation and XML completion. However, nXML needs a RELAX NG Compact Syntax (RNC) schema for the XML format to do its magic, and LibreOffice doesn't have one for XHP. Luckily they have a Document Type Definition (DTD), and you can convert a DTD into an RNC schema with the `trang` tool.
 
 `trang -Idtd -Ornc xmlhelp.dtd xmlhelp.rnc`
 

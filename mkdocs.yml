@@ -13,3 +13,7 @@ nav:
      - Portfolio: 'portfolio.md'
      - Resume: 'resume.md'
      - Blog: 'blog.md'
+
+markdown_extensions:
+     - toc:
+            permalink: "#"
