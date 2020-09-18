@@ -1,0 +1,15 @@
+site_name: Travis Stewart - Technical Writer
+
+repo_url: 'https://github.com/tstewart-writer/'
+edit_uri: ''
+
+theme:
+     name: cinder
+     colorscheme: darcula
+     custom_dir: custom_dir
+
+nav:
+     - Home: 'index.md'
+     - Portfolio: 'portfolio.md'
+     - Resume: 'resume.md'
+     - Blog: 'blog.md'
