@@ -17,3 +17,8 @@ nav:
 markdown_extensions:
      - toc:
             permalink: "#"
+
+plugins:
+     - exclude:
+          glob:
+               - venv/*
